@@ -1,0 +1,2 @@
+#Necessary config for correctly Allure working
+default: --publish-quiet --guess -r features  -f junit -o report/cucumber-reports/junit -f pretty -r features
